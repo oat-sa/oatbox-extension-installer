@@ -1,0 +1,16 @@
+{
+    "name": "oatbox/extension-installer",
+    "type": "composer-plugin",
+    "license": "GPL-2.0",
+    "autoload": {
+        "psr-0": {"oatbox\\composer": "./"}
+    },
+    "extra": {
+        "class": "oatbox\\composer\\ExtensionInstallerPlugin"
+    },
+    "require": {
+        "composer-plugin-api": "1.0.0"
+        
+    },
+    "minimum-stability" : "dev"
+}
