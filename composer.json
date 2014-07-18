@@ -1,5 +1,5 @@
 {
-    "name": "oatbox/extension-installer",
+    "name": "oat-sa/oatbox/extension-installer",
     "type": "composer-plugin",
     "license": "GPL-2.0",
     "autoload": {
