@@ -24,7 +24,7 @@ class ExtensionInstaller extends LibraryInstaller
                 };
                 $config = $reader($this->downloadManager->getDownloader('path'), 'config');
                 $baseDir = $reader($config, 'baseDir');
-                $baseDir = realpath($baseDir.DIRECTORY_SEPARATOR);
+                $baseDir = realpath($baseDir).DIRECTORY_SEPARATOR;
             } catch (\InvalidArgumentException $e) {
 
             }
